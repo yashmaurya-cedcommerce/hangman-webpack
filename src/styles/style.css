@@ -1,0 +1,214 @@
+body {
+  /* background-color: rgb(238, 238, 238); */
+  background-color: rgb(32, 133, 210, 0.2);
+  /* background-color: white; */
+}
+
+.homeContainer {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 6px;
+}
+
+.flexContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.homeHeading {
+  font-size: 6vw;
+  margin: 5% 0%;
+  font-family: "BIZ UDMincho", serif;
+}
+
+.firstContainer {
+  width: 50%;
+  padding: 0% 0%;
+}
+
+.secondContainer {
+  width: 50%;
+  padding: 0% 0%;
+}
+
+.firstContainer img {
+  width: 90%;
+  margin: auto;
+  height: 40vw;
+}
+
+.livesRemaining {
+  margin: 2% 0%;
+  font-size: 2vw;
+  font-weight: bold;
+  font-family: "BIZ UDMincho", serif;
+  color: rgb(101, 4, 4);
+}
+
+.answerReveal {
+  font-size: 2vw;
+  margin: 1% 0%;
+  font-family: "BIZ UDMincho", serif;
+  color: rgb(1, 39, 1);
+}
+
+.wonDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0%;
+  color: rgb(1, 39, 1);
+}
+
+.wonMsg {
+  font-size: 3vw;
+  font-family: "BIZ UDMincho", serif;
+  margin: 1% 0%;
+  width: 50%;
+}
+
+.wonBtn {
+  width: 35%;
+  font-size: 2vw;
+  font-family: "BIZ UDMincho", serif;
+  font-weight: bolder;
+  padding: 1% 0%;
+  border: none;
+  background-color: rgb(32, 133, 210);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.continueBtn {
+  font-size: 2vw;
+  width: 40%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 1% 0%;
+  border: none;
+  background-color: rgb(32, 133, 210);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.betterLuck {
+  font-size: 2vw;
+  margin: 2% 0%;
+  font-weight: bold;
+  font-family: "BIZ UDMincho", serif;
+  color: rgb(101, 4, 4);
+}
+
+.selectWordBtn {
+  width: 40%;
+  font-size: 2vw;
+  padding: 1% 0%;
+  border: none;
+  background-color: rgb(32, 133, 210);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 3% 0% 3% 0%;
+}
+
+.puzzleDiv {
+  width: 80%;
+  margin: auto;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 0%;
+}
+
+.hintPara {
+  width: 100%;
+  font-size: 1.6vw;
+  font-family: "BIZ UDMincho", serif;
+  margin: 2% 0%;
+  font-weight: bolder;
+  color: rgb(1, 39, 1);
+}
+
+.letterInput {
+  width: 5%;
+  font-size: 2vw;
+  margin: auto;
+  border: none;
+  border-bottom: 2px solid black;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.buttonsDiv {
+  width: 80%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.letterBtn {
+  width: 20%;
+  margin: 2% 2.5%;
+  font-size: 1.6vw;
+  font-weight: bolder;
+  /* padding: 5% 0%; */
+  border: none;
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  height: 5vw;
+  background-color: rgb(200, 195, 195);
+  transition: transform 0.3s;
+}
+
+.letterBtn:hover {
+  transform: scale(1.1);
+  background-color: rgb(32, 133, 210, 0.5);
+}
+
+.wrongLetterBtn {
+  width: 20%;
+  margin: 2% 2.5%;
+  font-size: 1.6vw;
+  font-weight: bolder;
+  /* padding: 5% 0%; */
+  border: none;
+  border-bottom: 3px solid rgb(228, 50, 50);
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  height: 5vw;
+}
+
+.correctLetterBtn {
+  width: 20%;
+  margin: 2% 2.5%;
+  font-size: 1.6vw;
+  font-weight: bolder;
+  /* padding: 5% 0%; */
+  border: none;
+  border-bottom: 3px solid rgb(5, 90, 5);
+  border-radius: 3px;
+  font-family: "Roboto", sans-serif;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  height: 5vw;
+}
